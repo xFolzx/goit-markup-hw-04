@@ -240,10 +240,15 @@ p {
 
 
 .hero-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border: none;
+        border-radius:4px;
+    padding:10px 30px 10px 30px;
     margin-top:30px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
+    letter-spacing: 0.06em;
     color: #ffffff;
     background-color: var(--btn-hover-focus-bgd);
 }
